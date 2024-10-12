@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+
+    <!-- Referências para o PWA -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/task-list.png" sizes="192x192">
+    <link rel="icon" href="icons/task-list.png" sizes="512x512">
+    <meta name="theme-color" content="#007bff">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+
+        <div class="title-container">
+            <h1>To-Do List</h1>
+            <img src="icons/task-list.png" alt="Ícone da To-Do List" class="title-icon">
+        </div>
+
+
+        <div class="task-info">
+            <span>Total de tarefas: <span id="taskCount">0</span></span>
+            <span>Tarefas concluídas: <span id="completedCount">0</span></span>
+        </div>
+
+
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Adicione uma nova tarefa">
+            <button id="addTaskBtn">Adicionar</button>
+        </div>
+
+
+        <div class="filters">
+            <button id="showAll" class="active">Todas</button>
+            <button id="showCompleted">Concluídas</button>
+            <button id="showIncomplete">Incompletas</button>
+        </div>
+
+
+        <ul id="taskList"></ul>
+
+
+        <p>Música enquanto cria suas tarefas: <a href="https://www.youtube.com/watch?v=XFkzRNyygfk" target="_blank">YouTube</a>.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
