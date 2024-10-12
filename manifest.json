@@ -2,7 +2,7 @@
     "name": "To-Do List App",
     "short_name": "ToDo",
     "description": "Uma aplicação de lista de tarefas",
-    "start_url": ".",
+    "start_url": "./",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#007bff",
